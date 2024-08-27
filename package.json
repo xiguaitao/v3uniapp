@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "tnuiv3p-tn-sign-board": "^1.0.2",
+    "vue-qrcode-reader": "^5.5.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "pdfjs-dist": "^3.5.141"
+  }
+}

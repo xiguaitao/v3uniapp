@@ -1,0 +1,15 @@
+{
+  "hash": "7263ab38",
+  "configHash": "d0056aea",
+  "lockfileHash": "a71deb55",
+  "browserHash": "0c7afcb5",
+  "optimized": {
+    "jsqr": {
+      "src": "../../../../../node_modules/jsqr/dist/jsQR.js",
+      "file": "jsqr.js",
+      "fileHash": "1c263c04",
+      "needsInterop": true
+    }
+  },
+  "chunks": {}
+}

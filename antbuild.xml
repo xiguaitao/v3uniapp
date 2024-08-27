@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ant脚本 自动把dist目录打成zip压缩包 -->
+<project default="zip">
+  <target name="zip">
+    <zip destfile="./dist.zip" duplicate="preserve">
+      <zipfileset dir="./unpackage/dist/build/web" includes="**/*.*"/>
+    </zip>
+  </target>
+</project>

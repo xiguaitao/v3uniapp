@@ -1,0 +1,252 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personalCenter/personalCenter",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/aftermarket/aftermarket",
+			"style": {
+				"navigationBarTitleText": "售后",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/users/users",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#C8CBCC",
+		"selectedColor": "#1DABF2",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/img/tabder-1.png",
+				"selectedIconPath": "static/img/tabder-1-m.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/users/users",
+				"iconPath": "static/img/tabder-2.png",
+				"selectedIconPath": "static/img/tabder-2-m.png",
+				"text": "用户"
+			},
+			{
+				"pagePath": "pages/aftermarket/aftermarket",
+				"iconPath": "static/img/tabder-3.png",
+				"selectedIconPath": "static/img/tabder-3-m.png",
+				"text": "售后"
+			},
+			{
+				"pagePath": "pages/personalCenter/personalCenter",
+				"iconPath": "static/img/tabder-4.png",
+				"selectedIconPath": "static/img/tabder-4-m.png",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [
+		{
+			"root": "subpackageA",
+			"name": "subpackageA",
+			"pages": [
+				{
+					"path": "contractManagement/contractManagement",
+					"style": {
+						"navigationBarTitleText": "合同管理",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "myEquipment/myEquipment",
+					"style": {
+						"navigationBarTitleText": "我的设备",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "facilityDetails/facilityDetails",
+					"style": {
+						"navigationBarTitleText": "设备详情",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "myEarnings/myEarnings",
+					"style": {
+						"navigationBarTitleText": "我的收益",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "modifyPassword/modifyPassword",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "customerServiceCenter/customerServiceCenter",
+					"style": {
+						"navigationBarTitleText": "客服中心",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "particulars/particulars",
+					"style": {
+						"navigationBarTitleText": "详情",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "addUser/addUser",
+					"style": {
+						"navigationBarTitleText": "添加"
+					}
+				},
+				{
+					"path": "accreditation/accreditation",
+					"style": {
+						"navigationBarTitleText": "认证",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "myMessage/myMessage",
+					"style": {
+						"navigationBarTitleText": "我的消息",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "auditRejected/auditRejected",
+					"style": {
+						"navigationBarTitleText": "审核驳回"
+					}
+				},
+				{
+					"path": "contractsManagement/contractsManagement",
+					"style": {
+						"navigationBarTitleText": "合同详情",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "withdrawal/withdrawal",
+					"style": {
+						"navigationBarTitleText": "提现",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "addBankCard/addBankCard",
+					"style": {
+						"navigationBarTitleText": "添加银行卡",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "applyToJoin/applyToJoin",
+					"style": {
+						"navigationBarTitleText": "申请加盟",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "retrievePassword/retrievePassword",
+					"style": {
+						"navigationBarTitleText": "找回密码",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "statisticians/statisticians",
+					"style": {
+						"navigationBarTitleText": "统计",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "userAgreement/userAgreement",
+					"style": {
+						"navigationBarTitleText": "用户协议",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "modifications/modifications",
+					"style": {
+						"navigationBarTitleText": "修改",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "bulletin/bulletin",
+					"style": {
+						"navigationBarTitleText": "公告",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "qr/qr",
+					"style": {
+						"navigationBarTitleText": "扫码",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "bind/bind",
+					"style": {
+						"navigationBarTitleText": "绑定设备",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "myFilter/myFilter",
+					"style" : 
+					{
+						"navigationBarTitleText" : "滤芯管理",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"custom": {
+			"^tn-(.*)-(item|group)$": "@/uni_modules/tuniaoui-vue3/components/$1/src/$1-$2.vue",
+			"^tn-(.*)": "@/uni_modules/tuniaoui-vue3/components/$1/src/$1.vue"
+		}
+	}
+}
